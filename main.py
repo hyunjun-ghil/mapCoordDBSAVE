@@ -2,7 +2,7 @@ import pymssql
 import json
 
 
-_conn = pymssql.connect(server='128.5.0.69', user='hrm', password='hrmdbo', database='CMS')
+_conn = pymssql.connect(server='', user='', password='', database='')
 cursor = _conn.cursor(as_dict=True)
 
 
